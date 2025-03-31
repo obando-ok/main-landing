@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mAIn – Masculinity. AI. Next.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0c0c0c;
+      color: white;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h1, h2, h3 {
+      color: #ffffff;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    .hero p {
+      font-size: 1.3em;
+      color: #bbbbbb;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .section {
+      margin-top: 60px;
+    }
+    .tagline {
+      font-size: 1.2em;
+      color: #cccccc;
+      margin-top: 20px;
+      letter-spacing: 2px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>Become the Man You Were Meant to Be</h1>
+      <p>A personalized, AI-powered system built to help you master your habits, strengthen your mindset, and rise into disciplined masculinity — with faith, focus, and brotherhood.</p>
+      <a href="#" class="cta-button">Join the Brotherhood</a>
+    </section>
+
+    <section class="section">
+      <h2>The Problem</h2>
+      <p><strong>Modern men are distracted, disconnected, and losing their edge.</strong> Social media, weak routines, and shallow culture are stripping away purpose and power. Too many young men feel stuck — lacking structure, faith, and fire.</p>
+    </section>
+
+    <section class="section">
+      <h2>The Solution</h2>
+      <p><strong>mAIn is your daily AI-powered mentor.</strong> We combine ancient values with modern technology to help you:</p>
+      <ul>
+        <li>Build a personalized daily routine</li>
+        <li>Break bad habits and reinforce new ones</li>
+        <li>Develop key traits: discipline, confidence, leadership</li>
+        <li>Integrate faith and purpose into everyday life</li>
+        <li>Join a private community of like-minded men</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>How It Works</h2>
+      <ol>
+        <li>Answer a few questions about your goals, habits, faith, and schedule</li>
+        <li>Your AI mentor builds a tailored daily plan, adjusted to your life</li>
+        <li>Log progress, reflect, grow — and rise, every single day</li>
+      </ol>
+      <p><em>"It's like having a mentor, accountability partner, and routine-builder — in your pocket."</em></p>
+    </section>
+
+    <section class="section">
+      <h2 class="tagline">MASCULINITY AI NEXT</h2>
+    </section>
+
+    <section class="section">
+      <h2>You're Not Doing This Alone</h2>
+      <p>Inside mAIn, you'll connect with other men who are leveling up too — supporting each other with real conversations, challenges, and shared wins.</p>
+    </section>
+
+    <section class="section">
+      <h2>The Brotherhood is Forming</h2>
+      <p>Get early access and help shape the future of masculine growth.</p>
+      <a href="#" class="cta-button">Join the Waitlist</a>
+    </section>
+
+    <footer>
+      &copy; 2025 mAIn. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
