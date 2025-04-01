@@ -1,108 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>mAIn – Masculinity. AI. Next.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-MV/uXgHldPi8sL+M37QkBnQho6Lh4QkY+X6zXqX6A+eyqz9umzOwqRSVZtMBGJ3QKwU6pL88nMjXDb0vLGmSAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0c0c0c;
-      color: white;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: #0f0f0f;
+      color: #f4f4f4;
       line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 80px 20px 40px;
+      text-align: center;
+      background: linear-gradient(145deg, #121212, #1f1f1f);
+      animation: fadeInDown 1.2s ease;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: #ffffff;
+      animation: slideUp 1.4s ease;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin-top: 20px;
+      color: #bbbbbb;
+      animation: fadeIn 2s ease;
     }
     .container {
       max-width: 900px;
       margin: 0 auto;
       padding: 40px 20px;
     }
-    h1, h2, h3 {
-      color: #ffffff;
-    }
-    .hero h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
-    }
-    .hero p {
-      font-size: 1.3em;
-      color: #bbbbbb;
-    }
-    .cta-button {
-      display: inline-block;
-      padding: 14px 28px;
-      background-color: #007bff;
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
-    .section {
+    section {
       margin-top: 60px;
+      animation: fadeIn 1.6s ease-in;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    ul, ol {
+      padding-left: 20px;
+      color: #d1d1d1;
     }
     .tagline {
-      font-size: 1.2em;
-      color: #cccccc;
-      margin-top: 20px;
+      font-size: 1.3rem;
+      font-weight: 600;
+      text-align: center;
+      color: #007bff;
+      margin: 40px 0;
       letter-spacing: 2px;
     }
-    footer {
+    .cta {
       text-align: center;
+      margin-top: 30px;
+    }
+    .cta-button {
+      padding: 16px 36px;
+      background-color: #007bff;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+    footer {
       margin-top: 80px;
-      font-size: 0.9em;
+      text-align: center;
+      font-size: 0.9rem;
       color: #666;
+    }
+    i {
+      margin-right: 8px;
+      color: #007bff;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-40px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes slideUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Become the Man You Were Meant to Be</h1>
+    <p><i class="fas fa-bolt"></i> A personalized AI-driven system to help young men master their habits, mindset, and mission — rooted in discipline, values, and faith.</p>
+  </header>
   <div class="container">
-    <section class="hero">
-      <h1>Become the Man You Were Meant to Be</h1>
-      <p>A personalized, AI-powered system built to help you master your habits, strengthen your mindset, and rise into disciplined masculinity — with faith, focus, and brotherhood.</p>
-      <a href="#waitlist" class="cta-button">Join the Brotherhood</a>
+    <div class="tagline">MASCULINITY AI NEXT</div>
+
+    <section>
+      <h2><i class="fas fa-exclamation-triangle"></i> The Problem</h2>
+      <p>Modern men are distracted, disconnected, and drifting without direction. Social media, weak routines, and a lack of strong role models are stripping away purpose and masculinity. Many young men feel lost — craving structure, strength, and substance.</p>
     </section>
 
-    <section class="section">
-      <h2>The Problem</h2>
-      <p><strong>Modern men are distracted, disconnected, and losing their edge.</strong> Social media, weak routines, and shallow culture are stripping away purpose and power. Too many young men feel stuck — lacking structure, faith, and fire.</p>
-    </section>
-
-    <section class="section">
-      <h2>The Solution</h2>
-      <p><strong>mAIn is your daily AI-powered mentor.</strong> We combine ancient values with modern technology to help you:</p>
+    <section>
+      <h2><i class="fas fa-wrench"></i> The Solution</h2>
+      <p><strong>mAIn</strong> is your daily AI-powered mentor and mission planner, designed to help you:</p>
       <ul>
-        <li>Build a personalized daily routine</li>
-        <li>Break bad habits and reinforce new ones</li>
-        <li>Develop key traits: discipline, confidence, leadership</li>
-        <li>Integrate faith and purpose into everyday life</li>
-        <li>Join a private community of like-minded men</li>
+        <li><i class="fas fa-dumbbell"></i> Build a routine that reinforces discipline, focus, and self-control</li>
+        <li><i class="fas fa-sync-alt"></i> Replace bad habits with long-term systems built around your goals</li>
+        <li><i class="fas fa-bullseye"></i> Train key traits: confidence, leadership, and stoicism</li>
+        <li><i class="fas fa-praying-hands"></i> Integrate faith and values into your daily growth</li>
+        <li><i class="fas fa-users"></i> Join a brotherhood of other men growing beside you</li>
       </ul>
     </section>
 
-    <section class="section">
-      <h2>How It Works</h2>
+    <section>
+      <h2><i class="fas fa-cogs"></i> How It Works</h2>
       <ol>
         <li>Answer a few questions about your goals, habits, faith, and schedule</li>
-        <li>Your AI mentor builds a tailored daily plan, adjusted to your life</li>
-        <li>Log progress, reflect, grow — and rise, every single day</li>
+        <li>Your AI mentor builds a personalized daily routine and growth path</li>
+        <li>Get daily missions, challenges, and reflection prompts to stay sharp</li>
       </ol>
-      <p><em>"It's like having a mentor, accountability partner, and routine-builder — in your pocket."</em></p>
     </section>
 
-    <section class="section">
-      <h2 class="tagline">MASCULINITY AI NEXT</h2>
+    <section>
+      <h2><i class="fas fa-handshake"></i> You're Not Doing This Alone</h2>
+      <p>mAIn isn't just an app — it's a movement. Inside you'll find a private brotherhood of men who are also training to become stronger, wiser, and more grounded. Share wins, struggles, and mission logs with others walking the same path.</p>
     </section>
 
-    <section class="section">
-      <h2>You're Not Doing This Alone</h2>
-      <p>Inside mAIn, you'll connect with other men who are leveling up too — supporting each other with real conversations, challenges, and shared wins.</p>
-    </section>
-
-    <section class="section" id="waitlist">
-      <h2>The Brotherhood is Forming</h2>
-      <p>Get early access and help shape the future of masculine growth.</p>
-      <iframe data-tally-src="https://tally.so/r/mYPQWo" loading="lazy" width="100%" height="220" frameborder="0" marginheight="0" marginwidth="0" title="Waitlist Form"></iframe>
+    <section class="cta">
+      <h2><i class="fas fa-fire"></i> The Brotherhood is Forming</h2>
+      <p>Be the first to get access, shape the platform, and rise with us.</p>
+      <iframe data-tally-src="https://tally.so/r/mYPQWo" loading="lazy" title="Waitlist Form"></iframe>
+      <a href="#" class="cta-button">Join the Waitlist</a>
     </section>
 
     <footer>
